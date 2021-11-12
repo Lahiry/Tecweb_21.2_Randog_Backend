@@ -57,10 +57,6 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = False
 
-CORS_ORIGIN_WHITELIST = (
-  'https://murmuring-citadel-31888.herokuapp.com/',
-)
-
 ROOT_URLCONF = 'randog.urls'
 
 TEMPLATES = [
